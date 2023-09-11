@@ -1,0 +1,26 @@
+h1{
+    color: red;
+}
+.fa-snowflake{
+    padding: 80px;
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color: var(--main-color)
+}
+@keyframes rot {
+    0%{
+        transform:  rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.navbar-brand{
+    color: #fff;;
+}
+.nav-item{
+    color:white;
+}
+.homeClass{
+    color:red;
+}
